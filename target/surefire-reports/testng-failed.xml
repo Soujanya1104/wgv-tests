@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [WGV Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.onpier.wgv.tests.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Personal Info Test(failed)" verbose="0">
+    <classes>
+      <class name="com.onpier.wgv.tests.PersonalInformationTests">
+        <methods>
+          <include name="validatePersonalInfoPageContent" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setDriver"/>
+          <include name="loadConfigs"/>
+        </methods>
+      </class> <!-- com.onpier.wgv.tests.PersonalInformationTests -->
+    </classes>
+  </test> <!-- Personal Info Test(failed) -->
+</suite> <!-- Failed suite [WGV Suite] -->

@@ -1,0 +1,9 @@
+com\onpier\wgv\pages\VehicleRegistrationPage.class
+com\onpier\wgv\utils\ConfigReader.class
+com\onpier\wgv\pages\BasePage.class
+com\onpier\wgv\utils\ExtentReport.class
+com\onpier\wgv\pages\PersonalInformationPage.class
+com\onpier\wgv\utils\Constants.class
+com\onpier\wgv\pages\LandingPage.class
+com\onpier\wgv\utils\DriverManager.class
+com\onpier\wgv\utils\DataProviders.class

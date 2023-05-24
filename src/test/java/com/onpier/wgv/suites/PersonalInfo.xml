@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="WGV Suite" verbose="1" >
+    <listeners>
+        <listener class-name="com.onpier.wgv.tests.Listeners"></listener>
+    </listeners>
+    <test name="Personal Info Test" >
+        <classes>
+            <class name="com.onpier.wgv.tests.PersonalInformationTests">
+                <methods>
+                    <include name="validatePersonalInfoPageContent"/>
+                    <include name="validatePersonalInfoPrivatePersonFields"/>
+                    <include name="validatePersonalInfoFieldValidations"/>
+                    <include name="validatePersonalInfoPrivatePersonSubmit"/>
+                    <include name="validatePersonalInfoCompanySubmit"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
